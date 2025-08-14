@@ -3,9 +3,9 @@
 Este guia mostra, com comandos e prints, como:
 1. Instalar o instalador do Laravel
 2. Criar um novo projeto
-3. Configurar o banco
+3. Configurar as especificações da aplicação e do banco
 4. Instalar/buildar assets com npm
-5. Executar as migrations
+5. Criar o banco de dados e executar as migrations
 6. Criar uma migration customizada
 7. Rodar as migrations novamente
 
@@ -13,8 +13,8 @@ Este guia mostra, com comandos e prints, como:
 > - PHP 8.2+ com extensões comuns (pdo, mbstring, openssl, tokenizer, xml, ctype, json)  
 > - Composer  
 > - Node.js + npm  
-> - MySQL/MariaDB (ou outro driver compatível)  
-> - (Opcional) XAMPP/WAMP para ambiente local no Windows
+> - MySQL 
+> - (Opcional) XAMPP para ambiente local no Windows
 
 ## 1) Instalar o instalador do Laravel (Composer)
 
